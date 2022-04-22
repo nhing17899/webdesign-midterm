@@ -1,4 +1,4 @@
-
+import "index.css"; 
 function AboutPage() {
     return (
         // insert your code between the <div></div> below
