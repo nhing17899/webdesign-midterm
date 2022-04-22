@@ -1,33 +1,35 @@
 import styled from "styled-components";
+import { Row } from "react-bootstrap";
 
-const Container = styled.section`
+const Container = styled.div`
+  margin-top: 150px;
   font-size: 1.5em;
   text-align: center;
   color: grey;
-  height: 500 px;
-  top: 200px;
-  position: relative;
-`
+  height: 70vh;
+`;
 
 const Button = styled.button`
-  background: "white" !important;
-  color: "gray";
-  font-size: 1em;
+  font-size: "1em";
+  color: grey;
   margin: 1em;
   padding: 0.25em 1em;
-  border: 2px solid grey;
+  border: none;
   border-radius: 3px;
   cursor: pointer;
+  &:hover {
+    border: 2px solid grey;
+  }
 `;
 
 function Jumbotron() {
   return (
     <Container>
-        <h1 className="display-4">Home page</h1>
-        <p className="lead">
-          This is the best shop that sells everything you want.
-        </p>
-        <Button>Explore</Button>
+      <h1 className="display-4">Home page</h1>
+      <p className="lead">
+        This is the best shop that sells everything you want.
+      </p>
+      <Button>Explore</Button>
     </Container>
   );
 }
