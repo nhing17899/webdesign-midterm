@@ -1,10 +1,11 @@
 import {Navbar, Nav, Container} from 'react-bootstrap';
+import classes from './main-header.module.css'
 
 
 function NavBar() {
     return (
       <Navbar bg="light" variant="light" expand="lg">
-        <Container>
+        <Container >
           <Navbar.Brand href='/'>WeShop</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
