@@ -20,10 +20,10 @@ function ContactPage() {
                 </div>
             <div class="contact-form">
                 <h2>Contact Us</h2>
-                <form class="contact" action="" method="post">
+                <form class="contact" method="post">
                     <input type="text" name="name" class="text-box name" placeholder="Your Name" required/>
                     <input type="email" name="email" class="text-box email" placeholder="Your Email" required/>
-                    <textarea name="message" rows="5" placeholder="Your Message"required></textarea>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 </form>
                 <button class="send-btn">Send</button>
             </div>
