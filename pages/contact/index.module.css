@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +10,7 @@
 
 body{
     min-height: 100vh;
-    background: url(background-contact.jpg) no-repeat;
+    background: url(./background-contact.jpg) no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -135,7 +138,7 @@ body{
 }
 
 /*RESPONSIVE AREA*/
-@media screen and (max-width: 950px){
+@media screen and (max-width: 600px){
     .contact-section{
         flex-direction: column;
     }
