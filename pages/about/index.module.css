@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica, sans-serif;
+    width: 1340px;
+}
+@font-face {
+    src: url(Font/Helvetica-Neue-Viet-hoa/Helvetica/helvetica-neue-bold.ttf);
+    font-family: helvetica-neue-bold;
+}
+.my-Header {
+    font-family: helvetica-neue-bold;
+    padding-top: 90px;
+    text-align: center;
+    font-size: 60px;
+}
+#Introduction {
+    text-align: center;
+    font-size: 35px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 90px;
+    
+}
+#services{
+  color: white;
+  
+}
+#ser-sec {
+    background-color: black;
+    height: fit-content;
+    width: 1340px;
+    padding-bottom: 65px;
+}
+#services-table {
+    margin: auto;
+    margin-top: 30px;
+    color: white;
+}
+.service {
+    text-align: center;
+    font-size: 50px;
+    margin: 20px 0px 20px 0px;
+    font-weight: lighter;
+}
+#ser-3 {
+    width: 300px;
+}
+.ser-icon {
+    width: 300px; 
+    height: 300px;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
+}
+#team-sec {
+    width: 1340px;
+    height: fit-content;
+    padding-bottom: 65px;
+}
+#team-table {
+    margin: auto;
+    margin-top: 30px;
+}
+#teamava-1 {
+    width: 300px; 
+    height: 300px;
+    border: 5px solid;
+    margin: 0px 10px 0px 10px;
+}
+#teamava-2 {
+    width: 300px; 
+    height: 300px;
+    border: 5px solid;
+    margin: 0px 10px 0px 10px;
+}
+#teamava-3 {
+    width: 300px; 
+    height: 300px;
+    border: 5px solid;
+    margin: 0px 10px 0px 10px;
+}
+#teamava-4 {
+    width: 300px; 
+    height: 300px;
+    border: 5px solid;
+    margin: 0px 10px 0px 10px;
+}
+#teamname-1 {
+    color: black;
+}
+.team-name {
+    text-align: center;
+    font-size: 50px;
+}
+#Footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    width: 1340px;    
+}
+@media only screen and (max-width: 600px) {
+    
+}
