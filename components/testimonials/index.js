@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import classes from "./testimonials.module.css";
 
+
 const Text = styled.div`
+  margin-top: 70px;
   background: gray;
   font-size: 1.5em;
   text-align: center;
@@ -13,7 +15,14 @@ const Text = styled.div`
 `;
 
 function Testimonials() {
-  return <Text>Testimonials</Text>;
+  return (
+    <Text>
+      <h3 style={{ fontStyle: "italic", fontWeight: "lighter" }}>
+        "Customer service shouldn't just be a department, it should be the
+        entire company."
+      </h3>
+    </Text>
+  );
 }
 
 export default Testimonials;

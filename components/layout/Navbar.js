@@ -4,7 +4,7 @@ import classes from './main-header.module.css'
 
 function NavBar() {
     return (
-      <Navbar bg="light" variant="light" expand="lg">
+      <Navbar fixed='top' bg="light" variant="light" expand="lg">
         <Container >
           <Navbar.Brand href='/'>WeShop</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

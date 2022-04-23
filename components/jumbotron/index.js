@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Row } from "react-bootstrap";
+import Link from "next/link";
 
 const Container = styled.div`
   margin-top: 150px;
@@ -29,7 +29,10 @@ function Jumbotron() {
       <p className="lead">
         This is the best shop that sells everything you want.
       </p>
-      <Button>Explore</Button>
+
+      <Link href="/product">
+        <Button>Explore</Button>
+      </Link>
     </Container>
   );
 }
